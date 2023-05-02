@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Eats</title>
+    <style>
+        * {
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar {
+            background-color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 15px;
+            padding-right: 15px;
+            height: 15vh;
+
+        }
+
+        .navdiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 70px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(31, 179, 31);
+            transition: 1s ease;
+        }
+        .logo:hover {
+            color: rgb(250, 250, 250);
+        }
+        li {
+            font-size: 20px;
+            color: white;
+            list-style: none;
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 25px;
+            transition: 2s ease;
+        }
+
+        li:hover {
+            color: rgb(148, 226, 31);
+        }
+
+        button {
+            background-color: rgb(10, 182, 10);
+            margin-left: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            width: 90px;
+            font-weight: bold;
+        }
+
+        img {
+            height: 5vh;
+            width: 5vh;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-right: 20px;
+            margin-bottom: -10px;
+        }
+
+        .grad {
+            height: 80vh;
+            width: 100%;
+            background-color: black;
+            border-top: 10px solid white;
+        }
+
+        .grad p {
+            color: white;
+            font-size: 22px;
+            font-weight: 500;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            margin-left: 600px;
+            margin-top: 30px;
+        }
+
+        span {
+            color: rgb(145, 248, 60);
+        }
+
+        .h {
+            color: rgb(252, 255, 47);
+            font-size: 50px;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .on {
+            color: black;
+            font-size: 19px;
+            font-weight: bolder;
+            background-color: rgb(72, 218, 14);
+            height: 7vh;
+            width: 12vw;
+            margin-left: 900px;
+            transition: 1s ease;
+        }
+
+        .on:hover {
+            color: white;
+        }
+
+        form {
+            margin-left: 840px;
+        }
+
+        .food {
+            width: 510px;
+            height: 655px;
+            position: absolute;
+            bottom: 0;
+            transform: translate(20px);
+            filter: drop-shadow(10px 7px 7px rgb(70, 92, 18));
+            margin-left: 5px;
+            border: 0px;
+            margin-bottom: -54px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#" style="color: rgb(65, 231, 65);">Uber-Eats</a></div>
+            <ul>
+                <img src="../New folder/india-g857a3db80_1280.png" alt="">
+                <li>HOME</li>
+                <li>ORDER</li>
+                <li>ABOUT</li>
+                <button><a href="#">Login</a></button>
+                <button><a href="#">Signup</a></button>
+            </ul>
+        </div>
+    </nav>
+    <div class="grad">
+        <P> <span class="h">Order Food To Your Door.</span><br><br><br><br>
+            Uber Eats is an online food ordering and delivery <br>
+            platform launched by Uber in <span> 2014</span>. Meals are <br>
+            delivered by couriers using cars, scooters, bikes, <br>
+            or on foot. It is operational in over<span> 6,000 cities</span> <br>
+            across<span> 45 countries</span> as of 2021.
+        </P><br>
+        <Form>
+            <input type="text" placeholder="Search Restaurants" style="height: 30px;" size="35">
+        </Form> <br><br>
+        <button class="on">Order Now !</button>
+        <div class="png">
+            <img src="../New folder/7343215 (1).png" class="food">
+        </div>
+    </div>
+
+</body>
+
+</html>
